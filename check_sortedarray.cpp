@@ -15,7 +15,7 @@ bool isSorted(int array[],int n,int i)
 }
 int main()
 {
-    //comments added 
+    //comments added to know git functionality
     int array[6]={1,2,3,4,5,6};
     int n=sizeof(array)/sizeof(int);
     cout<<boolalpha<<isSorted(array,6,0);
