@@ -26,8 +26,8 @@ void QuickSort(vector<int>& vec,int st, int end)
         return;
     }
     int pivotIdx=Partition(vec,st,end);
-    QuickSort(vec,st,pivotIdx-1);           //Recursion
-    QuickSort(vec,pivotIdx+1,end);          //Recursion
+    QuickSort(vec,st,pivotIdx-1);           //left Recursion
+    QuickSort(vec,pivotIdx+1,end);          //Right Recursion
 }
 void PrintArray(vector<int>& vec)
 {
